@@ -1,0 +1,7 @@
+1. Load the folder in your C++ IDE of choice
+2. Compile the code using the following line:
+   g++ -Wall -Werror -std=c++14 -O -o pathSolver Node.cpp NodeList.cpp PathPlanner.cpp main.cpp
+3. Now run the executable using:
+   ./pathSolver.exe
+   and input the 20 by 20 maze for it to solve (Copy and paste the mazes from the TestCases folder)
+4. The executable will output a solution file which shows the result fo the program

@@ -1,0 +1,20 @@
+Case01 - (octopus) This case is designed to see if the robot can navigate through multiple 
+joined paths and find the end goal which is not far from the start. Also, the test 
+is designed to place the goal to the left side of the Start position as this will 
+the one of the last locations the robot will check (in order:up, right, down, left)
+
+Case02 - (shortcut) This case has 2 paths that both lead to the goal and start from 
+the same location but one is shorter than the other. This case is designed to see if 
+the robot can choose the shortest path possible.
+
+Case03 - (brickwall) Here the robot should run into 3 'brickwalls' where it will have 
+to search for the last possible route which is the path to the goal. This is testing 
+to see what happens if the robot encounters a node that has no continuing path.
+
+Case04 - (meeting) Case04 is designed so that the 2 identical paths will meet at one 
+point which will make the robot conclude there is only one path forward. This is used 
+to test that the robot will continue the path after the 2 join.
+
+Case05 - (outskirts) The final test case is to stress test how many nodes the system 
+can read and use. It is also a good test of the reprinting of the map as there are so 
+many updates to make.
